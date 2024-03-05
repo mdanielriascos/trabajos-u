@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: white;
+  font-size: 18px;
+}
+body a {
+  color: rgb(75, 74, 84);
+}
+
+header {
+  background: url("img/ballena.avif");
+  background-size: 1500px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header h1 {
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+header nav {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 5px 5px;
+  border-bottom: 5px solid rgb(103, 115, 129);
+  font: bold 15px verdana;
+}
+header nav figure img{
+  border-radius: 13px;
+  padding: 5px;
+}
+header nav figure img:hover{
+  background-color: #000000;
+  transition: background-color 0.5s;
+
+}
+header nav ul {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header nav ul li:hover {
+  background-color: #0a141d;
+  transform: scale(1.2);
+  border: 1px solid;
+  border-radius: 13px;
+  padding: 10px;
+  
+}
+header nav ul li {
+  margin-right: 25px;
+}
+header section {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  padding: 50px 25px;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+  background: rgba(20, 20, 20, 0.5);
+}
+header section form {
+  padding: 25px;
+  padding-top: 50px;
+  background: rgba(20, 20, 20, 0.5);
+  border-radius: 13px;
+}
+header section form input, header section form button {
+  margin-bottom: 25px;
+}
+header section form input {
+  border-radius: 13px;
+  padding: 10px;
+  width: calc(100% - 20px);
+}
+header section form button {
+  border-radius: 13px;
+  width: 100%;
+  font-size: 1em;
+  background: rgb(0, 172, 124);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+header section form button:hover {
+  transform: scale(1.1);
+  box-shadow: #68BAA6 3px 3px 5px 5px;
+}
+header section form a {
+  display: block;
+  text-align: center;
+  color: rgba(247, 180, 241, 0.5);
+}
+
+main {
+  width: 100%;
+  background-color: #AEA9BA;
+  padding: 60px 130px;
+  float: left;
+}
+main p {
+  margin-bottom: 10px;
+}
+main section {
+  border-radius: 13px;
+  font: arial;
+  background-color: #BFA6A2;
+  border: 1px solid;
+  padding: 10px;
+  float: left;
+  margin: 10px;
+  margin-bottom: 100px;
+  border-bottom: 3px solid #0a141d;
+}
+main section h3 {
+  padding-bottom: 7px;
+}
+main section button {
+  float: right;
+  background: rgb(0, 172, 124);
+  color: white;
+  border: 1px solid;
+  border-radius: 13px;
+  padding: 8px;
+  cursor: pointer;
+}
+main section button:hover {
+  transform: scale(1.2);
+  background-color: cadetblue;
+}
+main section img {
+  border-radius: 13px;
+}
+
+main section:hover {
+transform: scale(1.1);
+  background-color: #4344FF;
+  
+}
+
+footer {
+  width: 100%;
+  background-color: #0a141d;
+}
+footer section {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 45px 0px;
+}
+footer section img{
+border-radius: 13px;
+}
+footer section img:hover{
+transform: scale(1.2);
+}
+footer section p {
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+footer section a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+  background-color: #0d2033;
+  text-align: center;
+}
+footer section #logo:hover {
+  box-shadow: #4344FF 3px 3px 5px 5px;
+  transform: scale(1.2);
+}
+footer section h2 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+footer section figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer section figure img {
+  width: 250px;
+}/*# sourceMappingURL=style.css.map */
